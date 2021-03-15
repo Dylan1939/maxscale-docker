@@ -38,7 +38,7 @@ maxscale_master2_1 is up-to-date
 maxscale_master_1 is up-to-date
 maxscale_maxscale_1 is up-to-date
 ```
-### Now enter the command below in the terminal to see that they are up
+### Enter the command below in the terminal to see that they are up
 ```
 sudo docker-compose exec maxscale maxctrl list servers
 ```
@@ -52,7 +52,7 @@ sudo docker-compose exec maxscale maxctrl list servers
 │ zip_master_two │ master2 │ 3306 │ 0           │ Running         │ 0-3000-31 │
 └────────────────┴─────────┴──────┴─────────────┴─────────────────┴───────────┘
 ```
-### Now enter this to connect using Mariadb
+### Enter this to connect using Mariadb
 ```
 mariadb -umaxuser -pmaxpwd -h 127.0.0.1 -P 4000
 ```
